@@ -8,8 +8,9 @@
 
 ## Introduction
 
-Scuber has gained some traction among moms and dads in New York City. It has
-also received a few requests.
+Imagine we've created an Uber clone called _Scuber_. Scuber has gained some
+traction among moms and dads in New York City. It has also received a few
+requests.
 
 First, Scuber's executives want to ensure that Scuber's headquarters is near
 its customers. They ask you to write a function that takes in a pickup location
@@ -59,15 +60,13 @@ function distanceFromHqInFeet (someValue) {
 
 * `distanceTravelledInFeet`: Calculates the number of feet a passenger travels
 given a starting block and an ending block - it only calculates distance North
-and South (uptown/downtown). It uses the knowledge that a block is 264 feet
-long.
+and South (uptown/downtown). It uses the knowledge that a block is _264 feet
+long_.
 
 * `calculatesFarePrice`: Given the same starting and ending block as the
 previous test (_hint hint_), return the fare for the customer. The first four
 hundred feet are free. For a distance between 400 and 2000 feet, the price is 2
-cents per foot (not including 400, which are free!). Then Scuber charges a
+cents per foot (not including 400, _which are free!_). Then Scuber charges a
 flat fare for a distance over 2000 feet and under 2500 feet. Finally, Scuber
 does not allow any rides over 2500 feet - the function returns `'cannot travel
 that far'` if a ride over 2500 feet is requested.
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/js-basics-functions-lab'>Functions Lab</a> on Learn.co and start learning to code for free.</p>
