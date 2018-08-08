@@ -1,3 +1,5 @@
 // Code your solution in this file!
 
-distanceFromHqInBlocks 
+function distanceFromHqInBlocks(location){
+  var result = math.abs
+}
