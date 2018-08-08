@@ -9,3 +9,4 @@ function distanceFromHqInFeet(location) {
   var result = distanceFromHqInBlocks(location) * 264
   return result
 }
+
